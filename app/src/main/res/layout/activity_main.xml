@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/usernamePT"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="150sp"
+        android:ems="10"
+        android:hint="eMail"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/passwordPST"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="15sp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/logInBT"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="240sp"
+        android:text="Log-In"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/regBT"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="-48sp"
+        android:layout_marginRight="40sp"
+        android:text="Register"
+        android:visibility="visible" />
+</LinearLayout>
